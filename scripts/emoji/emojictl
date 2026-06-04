@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "show" | socat -u - UNIX-SENDTO:/tmp/emoji.sock
